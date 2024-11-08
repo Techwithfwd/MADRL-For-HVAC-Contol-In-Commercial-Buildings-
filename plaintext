@@ -1,0 +1,22 @@
+hvac_madrl/
+│
+├── README.md
+├── main.py                 # Main entry point
+├── config.py               # Configuration file for hyperparameters
+│
+├── env/                    # Custom environment folder
+│   ├── __init__.py
+│   ├── hvac_env.py         # HVAC environment class (inherits from Gym)
+│   └── building_model.py   # Simulated building with zones
+│
+├── agents/                 # Agent definitions
+│   ├── __init__.py
+│   ├── agent.py            # Basic agent template
+│   ├── maddpg_agent.py     # MADDPG agent
+│   ├── ppo_agent.py        # PPO agent
+│   └── utils.py            # Helper functions for agents
+│
+└── training/               # Training and evaluation scripts
+    ├── __init__.py
+    ├── train.py            # Training loop for multi-agent setup
+    └── evaluation.py       # Evaluation loop
