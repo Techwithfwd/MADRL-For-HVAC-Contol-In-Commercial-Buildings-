@@ -16,7 +16,7 @@ The use of MADRL in HVAC control is expected to grow as more advanced IOT system
 8. Peak Shaving And Load Shifting
 9. resilience To External Factors
 10. Sustainability And Green Building Compliance
-11. Coordination Across ultiple Buildings
+11. Coordination Across Multiple Buildings
 12. Grid- Responsive Building Operations
 13. User-Critic Control and Personalization
 
