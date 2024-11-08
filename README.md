@@ -4,7 +4,7 @@ MADRL offers a promising approach for optimizing system in commecial buildings, 
 The ability to use multipe agents that learn from their environments and adapt to changing conditions enables better coordination across different zones or buildings, leading to improved energy savings and enhanced occupant comfort. 
 The use of MADRL in HVAC control is expected to grow as more advanced IOT systems, Sensors, and real-time data intergration become common in Commercial Building. 
 
-Applicaions Of MADRL For HVAC Control In Commercial Buildings:
+Applications Of MADRL For HVAC Control In Commercial Buildings:
 
 1. Energy Optimization
 2. Demand Response Programs Commercial Buildings 
@@ -41,3 +41,20 @@ Pythons Comprehensive ecosystem of machine learning, simulation, and data proces
 MADRL algorithms for HVAC Control in commercial Buildings.
 It supports every step of the process- from algorithms design and training to real-time Control and optimization- allowing for efficient, scalable, and adaptive HVAC management.
 
+Creating a Multi-Agent Deep Reinforcement Learning (MADRL) framework for HVAC (Heating, Ventilation, and Air Conditioning) control in commercial buildings is a complex task that involves training multiple agents to collaboratively manage energy consumption and maintain thermal comfort. 
+
+This typically requires libraries such as TensorFlow or PyTorch for deep learning and a framework like OpenAI Gym for the environment. Here’s an outline to get started:
+
+Environment Setup: Design an HVAC environment simulating different zones within a building.
+
+Agent Design: Create agents to control different zones, each with its observation space (e.g., temperature, humidity, energy usage).
+
+Training Logic: Define the learning algorithm (e.g., MADDPG, PPO, or A3C) with collaborative or competitive rewards.
+
+Reward Function: Focus on both energy savings and thermal comfort.
+
+Training Loop: Train each agent using its experiences, with periodic updates for coordinated learning across agents.
+
+This code provides a basic starting point for a multi-agent reinforcement learning setup tailored for HVAC control.
+
+Each module can be expanded to include more sophisticated building dynamics, realistic HVAC controls, and detailed reward mechanisms.
